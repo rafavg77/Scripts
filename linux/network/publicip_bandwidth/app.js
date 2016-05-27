@@ -27,6 +27,7 @@ function requester(data){
 		json : {
 			"date": date ,
 			"ip": data.client.ip,
+			"ping" : data.server.ping,
 			"download" : data.speeds.download,
 			"upload" : data.speeds.upload,
 			"device" : "Raspberry PI",
