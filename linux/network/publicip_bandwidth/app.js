@@ -6,8 +6,8 @@ var date = today.getFullYear().toString() + '/'+ (today.getMonth()+1).toString()
 var speeds = speedtest();
 
 function speedtest(){
+	console.log("Launching SpeedTest, wait a moment");
 	test = speedTest({maxTime : 20000});
-
 	test.on('data',function(data){
 		requester(data);
 	});
