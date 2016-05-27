@@ -27,10 +27,10 @@ function requester(data){
 		json : {
 			"date": date ,
 			"ip": data.client.ip,
-			"location" : "Home",
-			"device" : "Raspberry PI",
 			"download" : data.speeds.download,
-			"upload" : data.speeds.upload
+			"upload" : data.speeds.upload,
+			"device" : "Raspberry PI",
+			"location" : "Home",
  			}
 		}, function(error, reponse, body){
 			if(error){
