@@ -1,0 +1,2 @@
+/bin/sh /home/pi/Scripts/boot/boot.sh
+exit 0
