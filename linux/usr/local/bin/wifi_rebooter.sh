@@ -1,3 +1,6 @@
+# chmod +x /usr/local/bin/wifi_rebooter.sh
+# */5 *   * * *   root    /usr/local/bin/wifi_rebooter.sh
+
 #!/bin/bash
 
 # The IP for the server you wish to ping (8.8.8.8 is a public Google DNS server)
