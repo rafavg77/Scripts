@@ -1,5 +1,5 @@
 # chmod +x /usr/local/bin/wifi_rebooter.sh
-# */5 *   * * *   root    /usr/local/bin/wifi_rebooter.sh
+# */5 * * * * /usr/bin/sudo /usr/local/bin/wifi_rebooter.sh
 
 #!/bin/bash
 
