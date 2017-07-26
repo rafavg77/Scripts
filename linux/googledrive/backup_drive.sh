@@ -1,6 +1,6 @@
 #!/bin/bash
 # Description:	This script run grive command to sync google drive 
-# Date:		19/17/2017
+# Date:		19/07/2017
 # Author:	Rafael Vazquez
 
 # Parameters Configuration 
